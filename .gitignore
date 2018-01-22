@@ -240,3 +240,18 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+
+# .Rdata
+# .Rdata is ignored because they're too big to upload
+*.Rdata
+
+# Excel Files
+*.xlsx
+*.xls
+
+# csv files
+*.csv
+
+# Other exclude directory
+/03-PeterLung/firm.char
+/03-PeterLung/graph

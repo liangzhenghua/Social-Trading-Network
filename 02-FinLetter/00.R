@@ -1,0 +1,1 @@
+rb.sp.nv.plot[, .(ret = mean(dret) * 100), keyby = .(signal)]
